@@ -1,0 +1,13 @@
+TODO:
+
+- There is NO checking if the ZIP file might contain extremely large files before it is unzipped! This should be checked!
+
+
+GENERAL NOTES:
+
+- Added support for any unzip tool, configure in EM. 
+  Examples:
+  c:/Program Files/WinRAR/winrar.exe x -afzip -ibck -inul -o+ ###ARCHIVENAME### ###DIRECTORY###
+  c:/Program Files/Unzip/unzip.exe -qq ###ARCHIVENAME### -d ###DIRECTORY###
+  
+  Unzip for Windows available at http://www.info-zip.org/pub/infozip/UnZip.html#Win32

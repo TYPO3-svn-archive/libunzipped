@@ -1,0 +1,3 @@
+# cat=basic//; type=string; label=Commandline for unzip application: Enter the full command line for your unzip application, using the placeholders ###ARCHIVENAME### and ###DIRECTORY###. (Note: Use forward slashes '/' for windows paths!)
+unzipAppCmd = unzip -qq ###ARCHIVENAME### -d ###DIRECTORY###
+
